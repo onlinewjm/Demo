@@ -105,7 +105,7 @@ Shen Long Protocol V1.0
             "reason": ""
         },
         "resp": {
-            
+            //待定
         }
     }
     
