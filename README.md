@@ -100,7 +100,7 @@ Shen Long Protocol V1.0
         }
     }
     
-###四,用户结算
+###四,用户结算历史
 
 ####请求
 
@@ -111,7 +111,9 @@ Shen Long Protocol V1.0
         },
         "req": {
             "t": "usersettle",
-            "time":"2014/01"
+            "time":"2014/01",
+            "pagesize":20,
+            "pageindex":1
         }
     }
 
@@ -124,6 +126,18 @@ Shen Long Protocol V1.0
             "reason": ""
         },
         "resp": {
-            
+            "total":50,
+            "pagesize":20,
+            "pageindex":1,
+            "data":[
+                {
+                    "time":"2014-04-01",
+                    "money":100
+                },
+                {
+                    "time":"2014-04-02",
+                    "money":200
+                }
+            ]
         }
     }
