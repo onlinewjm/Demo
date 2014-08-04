@@ -39,5 +39,29 @@ Shen Long Protocol V1.0
         } 
     }
     
+> 2.用户同步
+
+###请求
+    {
+        "ctx": {
+            "uid": "5000797",
+            "pwd": "123123"
+        },
+        "req": {
+            "t": "usersync"
+        }
+    }
+
+###响应
+    {
+        "ctx": {
+            "t": "usersync",
+            "err": 0,
+            "reason": ""
+        },
+        "resp": {
+            
+        }
+    }
 
   
