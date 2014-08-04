@@ -2,7 +2,7 @@ Shen Long Protocol V1.0
 ====
 
 
-> ###1.获取用户应用
+> 1.获取用户应用
 
 ####请求
     {
@@ -15,7 +15,7 @@ Shen Long Protocol V1.0
         }
     }
 
-###响应
+####响应
 
     {
         "ctx": {
@@ -41,7 +41,7 @@ Shen Long Protocol V1.0
     
 > 2.用户同步
 
-###请求
+####请求
     {
         "ctx": {
             "uid": "5000797",
@@ -52,7 +52,7 @@ Shen Long Protocol V1.0
         }
     }
 
-###响应
+####响应
     {
         "ctx": {
             "t": "usersync",
