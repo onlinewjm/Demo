@@ -82,7 +82,7 @@ Shen Long Protocol V1.0
             "pwd": "123123"
         },
         "req": {
-            "t": "income",
+            "t": "userincome",
             "time":"2014/01"
         }
     }
@@ -91,7 +91,7 @@ Shen Long Protocol V1.0
 
     {
         "ctx": {
-            "t": "income",
+            "t": "userincome",
             "err": 0,
             "reason": ""
         },
@@ -110,7 +110,7 @@ Shen Long Protocol V1.0
             "pwd": "123123"
         },
         "req": {
-            "t": "settle",
+            "t": "usersettle",
             "time":"2014/01"
         }
     }
@@ -119,7 +119,7 @@ Shen Long Protocol V1.0
 
     {
         "ctx": {
-            "t": "settle",
+            "t": "usersettle",
             "err": 0,
             "reason": ""
         },
