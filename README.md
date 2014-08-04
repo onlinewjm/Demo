@@ -5,15 +5,16 @@ Shen Long Protocol V1.0
 ###一, 获取用户应用
 
 ####请求
+
     {
         "ctx": {
             "uid": "5000797",
-            "pwd": "123123",
-            "pagesize":20,
-            "pageindex":1
+            "pwd": "123123"
         },
         "req": {
-            "t": "getAppList"
+            "t": "getAppList",
+            "pagesize":20,
+            "pageindex":1
         }
     }
 
@@ -46,6 +47,7 @@ Shen Long Protocol V1.0
 ###二, 用户同步
 
 ####请求
+
     {
         "ctx": {
             "uid": "5000797",
@@ -57,6 +59,7 @@ Shen Long Protocol V1.0
     }
 
 ####响应
+
     {
         "ctx": {
             "t": "usersync",
@@ -72,6 +75,7 @@ Shen Long Protocol V1.0
 ###三, 用户收益
 
 ####请求
+
     {
         "ctx": {
             "uid": "5000797",
@@ -84,6 +88,7 @@ Shen Long Protocol V1.0
     }
 
 ####响应
+
     {
         "ctx": {
             "t": "income",
@@ -98,6 +103,7 @@ Shen Long Protocol V1.0
 ###四,用户结算
 
 ####请求
+
     {
         "ctx": {
             "uid": "5000797",
@@ -110,6 +116,7 @@ Shen Long Protocol V1.0
     }
 
 ####响应
+
     {
         "ctx": {
             "t": "settle",
