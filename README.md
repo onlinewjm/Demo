@@ -26,27 +26,27 @@ V1.0
 
 ###响应
 
-    {
-    "ctx": {
-        "t": "getAppList",
-        "err": 0,
-        "reason": ""
-    },
-    "resp": {
-        "total": 50,
-        "size":20,
-        "data":[
-            {
-                "title": "QQ浏览器",
-                "url": "http://zxly.file.18.net/1"
+        {
+            "ctx": {
+                "t": "getAppList",
+                "err": 0,
+                "reason": ""
             },
-            {
-                "title": "QQ手机助手",
-                "url": "http://zxly.file.18.net/2"
+            "resp": {
+                "total": 50,
+                "size":20,
+                "data":[
+                    {
+                        "title": "QQ浏览器",
+                        "url": "http://zxly.file.18.net/1"
+                    },
+                    {
+                        "title": "QQ手机助手",
+                        "url": "http://zxly.file.18.net/2"
+                    }
+                ]
             }
-        ]
-    }
-    }
+        }
 
 
   
