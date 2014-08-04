@@ -8,7 +8,9 @@ Shen Long Protocol V1.0
     {
         "ctx": {
             "uid": "5000797",
-            "pwd": "123123"
+            "pwd": "123123",
+            "pagesize":20,
+            "pageindex":1
         },
         "req": {
             "t": "getAppList"
@@ -25,7 +27,8 @@ Shen Long Protocol V1.0
         },
         "resp": {
             "total": 50,
-            "size":20,
+            "pagesize":20,
+            "pageindex":1,
             "data":[
                 {
                     "title": "QQ浏览器",
