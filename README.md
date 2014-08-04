@@ -2,9 +2,13 @@ Shen Long Protocol V1.0
 ====
 
 > 说明
+
 > ctx : 请求/响应 带的公共部分信息
+
 > req : 请求 传对应的参数
+
 > resp: 响应 结果
+
 > err : 响应 err > 0 , resp 中的内容为null
 
 ###一, 获取用户应用
